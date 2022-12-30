@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670075136026",
+    "project_id": "plm-vvm",
+    "storage_bucket": "plm-vvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670075136026:android:8bdc537518b866d19589a3",
+        "android_client_info": {
+          "package_name": "com.example.plm_vvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670075136026-tdguojkkbfvog6sqcofir51pafvrvqn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcu8qIUUVJPUKks_xQsaaW_TLuLbjMxlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670075136026-tdguojkkbfvog6sqcofir51pafvrvqn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

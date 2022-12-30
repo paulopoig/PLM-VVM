@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="477dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/campus" />
+
+    <TextView
+        android:id="@+id/txtYour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Your"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <TextView
+        android:id="@+id/txtYour2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Virtual"
+        android:textColor="#5B7DB1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/txtYour"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <TextView
+        android:id="@+id/txtYour3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Voting"
+        android:textColor="#EEE3CB"
+        android:textSize="30sp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/txtYour2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <TextView
+        android:id="@+id/txtYour4"
+        android:layout_width="134dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="Machine"
+        android:textColor="#C37B89"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text="SIGN UP"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/edittextblue"
+            android:ems="10"
+            android:fontFamily="@font/baloo"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F4F4F4"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/edittextred"
+            android:ems="10"
+            android:fontFamily="@font/baloo"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F4F4F4"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <EditText
+            android:id="@+id/user_student_id"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/edittextblue"
+            android:ems="10"
+            android:fontFamily="@font/baloo"
+            android:hint="Student ID"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F4F4F4"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/edittextred"
+            android:ems="10"
+            android:fontFamily="@font/baloo"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F4F4F4"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/baloo"
+            android:text="Sign Up" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/have_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        app:srcCompat="@drawable/ic_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
