@@ -1,6 +1,6 @@
 # PLM-VVM
-Attempt on our Application Development Final Project
-Just download the main folder and open it on Android Studio and you are good to go!
+Attempt on our Application Development Final Project.
+- Just download the main folder and open it on Android Studio and you are good to go!
 
 
 
