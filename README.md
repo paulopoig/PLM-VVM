@@ -3,7 +3,7 @@
 
   ![MasterHead](https://github.com/paulopoig/PLM-VVM/assets/78188625/10df8aa8-5312-4c0b-947a-a132c4274bec)
 
-  <h3 align="center">PLM-VVM</h3>
+  <h1 align="center">PLM-VVM</h1>
 
   <p align="center">
     An E-Voting Mobile Application designed and developed for Pamantasan ng Lungsod ng Maynila
@@ -16,30 +16,6 @@
    
   </p>
 </div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#system-features">System Features</a>
-    </li>
-    <li>
-      <a href="team-behind-plm-vvm">Team Behind PLM-VVM</a>
-    </li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
