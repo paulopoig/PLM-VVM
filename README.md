@@ -35,7 +35,7 @@ PLM-VVM follows Create, Read, Update, and Delete principles as a framework for v
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+To build KalyeFeast’s technological architecture, the developer leveraged various versatile and high-performing frameworks and software libraries, including:
 
 * ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 * ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
@@ -94,7 +94,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
     
 <!-- TEAM BEHIND PLM-VVM -->
 ## Team Behind PLM-VVM
-* Paulo Danque - Lead Front End and Back End Developer
+* <strong>Paulo Danque</strong> - Project Manager and Lead Front End and Back End Developer
 * John Andrew Anos - Front End Developer
 * Arianne Andrea Conde - Documentation
 * Jem Cherlisse Aquino - Documentation
