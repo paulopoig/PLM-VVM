@@ -21,7 +21,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<a href="https://www.behance.net/gallery/189544991/PLM-VVM"><img src="https://github.com/paulopoig/PLM-VVM/assets/78188625/ad73c54e-5f73-4e85-a7fe-d51bbc294f54" alt="PLM-VVM Mobile Application Showcase"></a>
 
 This project was developed as a course requirement for "Application Development" with the goal of creating a useful application that addresses a real-world issue. PLM-VVM (Pamantasan ng Lungsod ng Maynila - Virtual Voting Machine) was conceived to tackle problems faced by our university in conducting Supreme Student Elections using online forms.
 
